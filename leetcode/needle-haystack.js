@@ -12,3 +12,7 @@ var strStr = function(haystack, needle) {
     if (haystack === "" && needle === "") return 0;
     return haystack.indexOf(needle);
   };
+
+
+//   Runtime: 76 ms, faster than 86.94% of JavaScript online submissions for Implement strStr().
+//   Memory Usage: 37.8 MB, less than 99.89% of JavaScript online submissions for Implement strStr().
